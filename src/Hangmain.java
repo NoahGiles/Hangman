@@ -6,6 +6,7 @@ public class Hangmain {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String[] words = new String[]{"Eleven", "Duck", "Minority", "WOMAN", "Sacrifice", "Putrid", "Goat", "ItsNotSafePleaseHelpMePlease", "Impure", "Dying", "Martyr"};
+        char[] lettersGuessed = new char[];
         Random rand = new Random();
         int randWord = rand.nextInt(12);
         System.out.println(randWord);
